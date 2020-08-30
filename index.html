@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quote-container" id="quote-container">
+      <!-- BTNs -->
+      <div class="button-container">
+        <button class="twitter-button" id="twitter" title="Tweet This!">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button
+          class="copy-button"
+          id="btn_test"
+          type="button"
+          title="Copy the text!"
+        >
+          <i class="fas fa-copy"></i>
+        </button>
+      </div>
+      <!-- Quote -->
+      <div class="quote-text">
+        <i class="fas fa-quote-left icon"></i>
+        <span id="quote"></span>
+        <i class="fas fa-quote-right icon"></i>
+      </div>
+      <!-- Author -->
+      <div class="quote-author">
+        <span id="author"></span>
+      </div>
+      <!-- Button -->
+      <button class="new-quote-btn" id="new-quote" title="Add Quote!">
+        New Quote!
+      </button>
+    </div>
+    <!-- Loader -->
+    <div class="lds-spinner" id="loader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
